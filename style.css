@@ -1,4 +1,80 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap);
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Monserrat', sans-serif;
 }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(13,6,51);
+}
+
+form{
+    width: 400px;
+    background-color: white;
+    padding: 150px 30px;
+}
+input{
+    height: 30px;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-bottom: .5px solid black;
+    transition: 1s ease all;
+}
+
+.field{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0;
+}
+.border{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    transform: scale(0);
+    transform-origin: center;
+    height: 3px;
+    background-color: rgb(2, 224, 213);
+    transition: .4s ease-in-out all;
+}
+
+label{
+    position: absolute;
+    left: 10px;
+    transition: .5s ease all;
+}
+input:focus{
+    outline:0;
+}
+
+button{
+    padding: 10px 35px;
+    width: 100%;
+    background-color: rgb(40, 191, 218);
+    border: none;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: .7s ease all;
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(44, 220, 233);
+    letter-spacing: 4px;
+}
+
+
