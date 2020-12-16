@@ -22,13 +22,14 @@ form{
     width: 400px;
     background-color: white;
     padding: 150px 30px;
+    border-radius: 10px;
 }
 input{
     height: 30px;
     width: 100%;
     border: none;
     padding: 10px;
-    border-bottom: .5px solid black;
+    border-bottom: .5px solid rgb(192, 192, 192);
     transition: 1s ease all;
 }
 
@@ -46,8 +47,8 @@ input{
     width: 100%;
     transform: scale(0);
     transform-origin: center;
-    height: 3px;
-    background-color: rgb(2, 224, 213);
+    height: 2px;
+    background-color: rgb(89, 84, 116);
     transition: .4s ease-in-out all;
 }
 
@@ -63,9 +64,11 @@ input:focus{
 button{
     padding: 10px 35px;
     width: 100%;
-    background-color: rgb(40, 191, 218);
+    background-color: rgb(167, 164, 189);
+    border-radius: 8px;
+    color:rgb(0, 0, 0);
     border: none;
-    font-size: 20px;
+    font-size: 16px;
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: .7s ease all;
@@ -73,8 +76,9 @@ button{
 }
 
 button:hover{
-    background: rgb(44, 220, 233);
+    background: rgb(89, 84, 116);
     letter-spacing: 4px;
+    color:white;
 }
 
 label.top{
